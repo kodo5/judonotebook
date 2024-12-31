@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dan_theory.js"></script>
+</head>
+<body>
+    <iframe id="iframe_window" width="auto" height="auto" src="" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"%>
+    </iframe>
+</body>
+
+<script>
+
+    // THIS IS A TERRIBLE IDEA AS IT IS AN OPEN REDIRECT
+
+    // get url param
+    const urlParams = new URLSearchParams(window.location.search); // dev beware, this way lie xss
+    var throw_param = urlParams.get("throw");
+    console.log(throw_param)
+
+    
+    var frame = document.getElementById("iframe_window");
+    frame.src = throw_param
+</script>
+</html>

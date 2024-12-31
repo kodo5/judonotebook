@@ -1,0 +1,38 @@
+
+.box_container{
+    
+    grid-template-columns: 1fr 1fr;
+
+}
+.card {
+
+    /* box-shadow: 10px 10px black; */
+
+    /* text-align:justify; */
+    
+
+    
+    /* box-shadow: 10px 10px var(--var-shadow); */
+    width: 40vw;
+    /* height: 10vh; */
+    margin: 2%;
+    
+
+    display: flex;
+    text-align: center;
+    
+    /* flex-grow: 1; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-size: 200%; */
+}
+
+
+a{
+    
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    color: black !important;
+    background-image: none !important;
+    
+}

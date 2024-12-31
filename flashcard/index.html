@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judo notebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../paper.min.css">
+</head>
+<body>
+
+    <div id="container_1">
+        <div class="card" id="flashcard">
+            <div class="card-body" id="body_container">
+              <h2 class="card-title"></h2>
+              <h5 class="card-subtitle"></h5>
+              <iframe src="" frameborder="0"></iframe>
+              
+              <div id="container_2">
+                <button class="background-danger tickbox border-danger" onclick="show_vid();">X</button>
+                <button class="background-success tickbox border-success" onclick="load_card();">✓</button>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="dan_theory.js"></script>
+    <script src="kyu_theory.js"></script>
+    <script>
+
+      var flashcards;
+
+      function get_theory_dict(){
+        // gets the relevent theory depending on url param
+        const queryString = window.location.search ;
+        const urlParams = new URLSearchParams(queryString);
+        grade = urlParams.get("grade");
+        set = urlParams.get("set");
+        type = urlParams.get("type");
+
+        console.log("GRADE: ",grade);
+        
+        flashcards = [];
+        
+
+        if (grade == "dan"){
+          // check if you need to load the dan syllabus
+          if (set == null){
+            // get all dan grade throws
+            flashcards = dan_theory;  
+          }
+          else{
+            // get throws matching a set
+            for (let i = 0; i < dan_theory.length; i++) {
+              if (dan_theory[i]["set"] == set){
+                flashcards.push(dan_theory[i]);
+                console.log(dan_theory[i]);
+              }
+            }
+          }
+        }
+        else{
+          // load the kyu syllabus and check for grade
+          // flashcards = kyu_theory;
+           // get throws matching a set
+           for (let i = 0; i < kyu_theory.length; i++) {
+              if (kyu_theory[i]["grade"] == grade){
+                flashcards.push(kyu_theory[i]);
+                console.log(kyu_theory[i]);
+              }
+              
+            }
+
+        }
+        
+        
+      }
+
+      function show_vid(){
+          document.getElementsByTagName('iframe')[0].style="visibility: visible;";
+      }
+
+      function load_card(){
+        var randomThrow = flashcards[Math.floor(Math.random() * flashcards.length)];
+        var title = document.getElementsByClassName("card-title")[0];
+        var subtitle = document.getElementsByClassName("card-subtitle")[0];
+        var iframe = document.getElementsByTagName("iframe")[0];
+        document.getElementsByTagName('iframe')[0].style="visibility: hidden;";
+
+        title.textContent = randomThrow["throw"];
+        subtitle.textContent = randomThrow["translation"];
+        iframe.src = randomThrow["img"];
+      }
+
+      get_theory_dict();
+      load_card();
+      
+
+    </script>
+    
+    
+</body>
+</html>

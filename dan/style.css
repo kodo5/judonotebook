@@ -1,0 +1,30 @@
+/* container */
+.two-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.two-columns > * {
+    width:100%;
+    padding:1rem;
+    width: 50%;
+    
+}
+
+/* tablet breakpoint */
+/* @media (min-width:768px) {
+    .two-columns > * {
+        width:50%;
+    }
+} */
+
+a {
+    background-image: none !important;
+    color: black !important;
+
+}
+.card {
+    text-align: center;
+    margin-bottom: 10%;
+}
