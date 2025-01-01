@@ -39,3 +39,6 @@ iframe{
     flex-grow: 1;
     visibility: hidden;
 }
+.card {
+    background-color: #fff;
+}

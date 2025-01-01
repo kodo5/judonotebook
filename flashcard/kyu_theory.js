@@ -90,6 +90,171 @@ kyu_theory = [
         "type":"Ne-Waza",
         "grade":"yellow"
     },
+// Orange
+{
+    "throw": "Tsuri-komi-goshi",
+    "img": "https://www.youtube.com/watch?v=4HJumX7ArOI",
+    "translation": "Drawing Hip Throw",
+    "catagory": "Koshi-waza",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "O-goshi",
+    "img": "https://www.youtube.com/watch?v=Mwz5At87OxE",
+    "translation": "Major Hip Throw",
+    "catagory": "Koshi-waza",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Seoi-otoshi",
+    "img": "https://www.youtube.com/watch?v=ne3i9DoBQU0",
+    "translation": "Shoulder Drop Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Morote-seoi-nage",
+    "img": "",
+    "translation": "Two-Handed Shoulder Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Kouchi-gari",
+    "img": "",
+    "translation": "Minor Inner Reaping Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Kosoto-gake",
+    "img": "",
+    "translation": "Minor Outer Hook Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Kosoto-gari",
+    "img": "",
+    "translation": "Minor Outer Reaping Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Osoto-gari",
+    "img": "",
+    "translation": "Major Outer Reaping Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+
+// Green
+{
+    "throw": "Harai-goshi",
+    "img": "",
+    "translation": "Sweeping Hip",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Uchi-mata",
+    "img": "",
+    "translation": "Inner Thigh",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Hiza-guruma",
+    "img": "",
+    "translation": "Knee Wheel",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Sasae-tsuri-komi-ashi",
+    "img": "",
+    "translation": "Propping Drawing Ankle",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Hane-goshi",
+    "img": "",
+    "translation": "Spring Hip",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Okuri-ashi-barai",
+    "img": "",
+    "translation": "Foot Sweep",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Morote-eri-seoi-nage",
+    "img": "",
+    "translation": "Two-Handed Lapel Shoulder",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Ude-gatame",
+    "img": "",
+    "translation": "Straight Armlock",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Waki-gatame",
+    "img": "",
+    "translation": "Armlock applied with the armpit",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Hiza-gatame",
+    "img": "",
+    "translation": "Armlock applied with the knee",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Juji-gatame",
+    "img": "",
+    "translation": "Cross Armlock",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+
+// Blue
+{
+    "throw": "",
+    "img": "",
+    "translation": "",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
 // Brown
 
     {

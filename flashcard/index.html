@@ -6,6 +6,7 @@
     <title>Judo notebook</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../paper.min.css">
+    <link rel="stylesheet" href="bg.css">
 </head>
 <body>
 
@@ -92,12 +93,24 @@
         iframe.src = randomThrow["img"];
       }
 
+      function set_background_syle(){
+        const queryString = window.location.search ;
+        const urlParams = new URLSearchParams(queryString);
+        var grade = urlParams.get("grade");
+        if (["red","yellow","orange","green","blue","brown","dan"].includes(grade)){
+          // document.getElementById("container_1").classList.add(grade);
+          document.body.classList.add(grade);
+          console.log("!!!!!!")
+        }
+      }
+
+      set_background_syle();
       get_theory_dict();
       load_card();
       
 
     </script>
-    
+   
     
 </body>
 </html>
