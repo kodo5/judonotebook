@@ -93,7 +93,7 @@ kyu_theory = [
 // Orange
 {
     "throw": "Tsuri-komi-goshi",
-    "img": "https://www.youtube.com/watch?v=4HJumX7ArOI",
+    "img": "https://www.youtube.com/embed/4HJumX7ArOI",
     "translation": "Drawing Hip Throw",
     "catagory": "Koshi-waza",
     "type":"Tachi-Waza",
@@ -101,7 +101,7 @@ kyu_theory = [
 },
 {
     "throw": "O-goshi",
-    "img": "https://www.youtube.com/watch?v=Mwz5At87OxE",
+    "img": "https://www.youtube.com/embed/Mwz5At87OxE",
     "translation": "Major Hip Throw",
     "catagory": "Koshi-waza",
     "type":"Tachi-Waza",
@@ -109,39 +109,39 @@ kyu_theory = [
 },
 {
     "throw": "Seoi-otoshi",
-    "img": "https://www.youtube.com/watch?v=ne3i9DoBQU0",
+    "img": "https://www.youtube.com/embed/ne3i9DoBQU0",
     "translation": "Shoulder Drop Throw",
-    "catagory": "",
+    "catagory": "Te-waza",
     "type":"Tachi-Waza",
     "grade":""
 },
 {
     "throw": "Morote-seoi-nage",
-    "img": "",
+    "img": "https://www.youtube.com/embed/_-5Un6jLtRY",
     "translation": "Two-Handed Shoulder Throw",
-    "catagory": "",
+    "catagory": "Te-waza",
     "type":"Tachi-Waza",
     "grade":""
 },
 {
     "throw": "Kouchi-gari",
-    "img": "",
+    "img": "https://www.youtube.com/embed/_-5Un6jLtRY",
     "translation": "Minor Inner Reaping Throw",
-    "catagory": "",
+    "catagory": "Ashi-waza",
     "type":"Tachi-Waza",
     "grade":""
 },
 {
     "throw": "Kosoto-gake",
-    "img": "",
+    "img": "https://www.youtube.com/embed/jl99iUTlIVY",
     "translation": "Minor Outer Hook Throw",
-    "catagory": "",
+    "catagory": "Ashi-waza",
     "type":"Tachi-Waza",
     "grade":""
 },
 {
     "throw": "Kosoto-gari",
-    "img": "",
+    "img": "https://www.youtube.com/embed/T3rSf8CcHg4",
     "translation": "Minor Outer Reaping Throw",
     "catagory": "",
     "type":"Tachi-Waza",
@@ -149,7 +149,7 @@ kyu_theory = [
 },
 {
     "throw": "Osoto-gari",
-    "img": "",
+    "img": "https://www.youtube.com/embed/93YEMueeF24",
     "translation": "Major Outer Reaping Throw",
     "catagory": "",
     "type":"Tachi-Waza",
@@ -159,15 +159,15 @@ kyu_theory = [
 // Green
 {
     "throw": "Harai-goshi",
-    "img": "",
+    "img": "https://www.youtube.com/embed/cs_zkgefvqM",
     "translation": "Sweeping Hip",
-    "catagory": "",
+    "catagory": "Koshi-waza",
     "type":"Tachi-Waza",
     "grade":""
 },
 {
     "throw": "Uchi-mata",
-    "img": "",
+    "img": "https://www.youtube.com/embed/7fCvyc_rQTI",
     "translation": "Inner Thigh",
     "catagory": "",
     "type":"Tachi-Waza",
@@ -175,7 +175,7 @@ kyu_theory = [
 },
 {
     "throw": "Hiza-guruma",
-    "img": "",
+    "img": "https://www.youtube.com/embed/a1RZvytW3OI",
     "translation": "Knee Wheel",
     "catagory": "",
     "type":"Tachi-Waza",
@@ -183,15 +183,15 @@ kyu_theory = [
 },
 {
     "throw": "Sasae-tsuri-komi-ashi",
-    "img": "",
+    "img": "https://www.youtube.com/embed/MiGljHOokvE",
     "translation": "Propping Drawing Ankle",
-    "catagory": "",
+    "catagory": "Ashi-Waza",
     "type":"Tachi-Waza",
     "grade":""
 },
 {
     "throw": "Hane-goshi",
-    "img": "",
+    "img": "https://www.youtube.com/embed/cs_zkgefvqM",
     "translation": "Spring Hip",
     "catagory": "",
     "type":"Tachi-Waza",
@@ -199,9 +199,9 @@ kyu_theory = [
 },
 {
     "throw": "Okuri-ashi-barai",
-    "img": "",
+    "img": "https://www.youtube.com/embed/93YEMueeF24",
     "translation": "Foot Sweep",
-    "catagory": "",
+    "catagory": "Ashi-waza",
     "type":"Tachi-Waza",
     "grade":""
 },
@@ -215,46 +215,135 @@ kyu_theory = [
 },
 {
     "throw": "Ude-gatame",
-    "img": "",
+    "img": "https://www.youtube.com/embed/SBf0aTma1VI",
     "translation": "Straight Armlock",
     "catagory": "",
-    "type":"Tachi-Waza",
+    "type":"Ne-Waza",
     "grade":""
 },
 {
     "throw": "Waki-gatame",
-    "img": "",
+    "img": "https://www.youtube.com/embed/8F5p1zuJRG0",
     "translation": "Armlock applied with the armpit",
     "catagory": "",
-    "type":"Tachi-Waza",
+    "type":"Ne-Waza",
     "grade":""
 },
 {
     "throw": "Hiza-gatame",
-    "img": "",
+    "img": "https://www.youtube.com/embed/H2HtAJdiJcE",
     "translation": "Armlock applied with the knee",
     "catagory": "",
-    "type":"Tachi-Waza",
+    "type":"Ne-Waza",
     "grade":""
 },
 {
     "throw": "Juji-gatame",
-    "img": "",
+    "img": "https://www.youtube.com/embed/OWgSOlCuMXw",
     "translation": "Cross Armlock",
     "catagory": "",
-    "type":"Tachi-Waza",
+    "type":"Ne-Waza",
     "grade":""
 },
 
 // Blue
 {
-    "throw": "",
-    "img": "",
-    "translation": "",
+    "throw": "Soto-maki-komi",
+    "img": "https://www.youtube.com/embed/BcfGFR1CWss",
+    "translation": "Outside Winding",
     "catagory": "",
     "type":"Tachi-Waza",
     "grade":""
 },
+{
+    "throw": "Tani-otoshi",
+    "img": "https://www.youtube.com/embed/wS9pM3y8YH4",
+    "translation": "Valley Drop Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Yoko-guruma",
+    "img": "https://www.youtube.com/embed/BYD0IRZPlxI",
+    "translation": "Side Wheel Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Tomoe-nage",
+    "img": "https://www.youtube.com/embed/-euJliq9XcY",
+    "translation": "Circle Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Yoko-tomoe-nage",
+    "img": "https://www.youtube.com/embed/9-byceOifXo",
+    "translation": "Side Circle Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Uki-waza",
+    "img": "https://www.youtube.com/embed/JtB79Ma4htw",
+    "translation": "Floating Throw",
+    "catagory": "",
+    "type":"Tachi-Waza",
+    "grade":""
+},
+{
+    "throw": "Okuri-eri-jime",
+    "img": "https://www.youtube.com/embed/EiqyoVcIAi8",
+    "translation": "Sliding Collar Strangle",
+    "catagory": "",
+    "type":"Ne-Waza",
+    "grade":""
+},
+{
+    "throw": "Nami-juji-jime",
+    "img": "https://www.youtube.com/embed/k2cHry9HByQ",
+    "translation": "Normal Cross Strangle",
+    "catagory": "",
+    "type":"Ne-Waza",
+    "grade":""
+},
+{
+    "throw": "Gyaku-juji-jime",
+    "img": "https://www.youtube.com/embed/t3tQriIPdlI",
+    "translation": "Reverse Cross Strangle",
+    "catagory": "",
+    "type":"Ne-Waza",
+    "grade":""
+},
+{
+    "throw": "Koshi-jime",
+    "img": "https://www.youtube.com/embed/-STcon8avQY",
+    "translation": "Strangle using the hip",
+    "catagory": "",
+    "type":"Ne-Waza",
+    "grade":""
+},
+{
+    "throw": "Kata-te-jime",
+    "img": "https://www.youtube.com/embed/cHeIs-fSqwE",
+    "translation": "Strangle with One Hand",
+    "catagory": "",
+    "type":"Ne-Waza",
+    "grade":""
+},
+{
+    "throw": "Ude-garami",
+    "img": "https://www.youtube.com/embed/AIlTvZb4RlE",
+    "translation": "Entangled Armlock",
+    "catagory": "",
+    "type":"Ne-Waza",
+    "grade":""
+},
+
 // Brown
 
     {

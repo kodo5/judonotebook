@@ -6,15 +6,20 @@
     <title>flashcard</title>
     <link rel="stylesheet" href="../paper.min.css">
 </head>
-<body class="grade-holder">
-    <h1>Flashcards</h1>
+<body class="grade-holder sm-12 md-4 col">
+    <h1>Flashcards</h>
     <div class="grade card" id="red"    onClick="document.location.href = '/flashcard/?grade=red'" style="color: red;"><h3>RED</h3></div>
     <div class="grade card" id="yellow" onClick="document.location.href = '/flashcard/?grade=yellow'" style="color: yellow;"><h3>YELLOW</h3></div>
-    <div class="grade card" id="orange" onClick="alert('Under Construction');" style="color: orange;"><h3>ORANGE</h3></div>
-    <div class="grade card" id="green"  onClick="alert('Under Construction');" style="color: green;"><h3>GREEN</h3></div>
-    <div class="grade card" id="blue"   onClick="alert('Under Construction');" style="color: blue;"><h3>BLUE</h3></div>
+    <div class="grade card" id="orange" onClick="document.location.href = '/flashcard/?grade=orange'" style="color: orange;"><h3>ORANGE</h3></div>
+    <div class="grade card" id="green"  onClick="document.location.href = '/flashcard/?grade=green'" style="color: green;"><h3>GREEN</h3></div>
+    <div class="grade card" id="blue"   onClick="document.location.href = '/flashcard/?grade=blue'" style="color: blue;"><h3>BLUE</h3></div>
     <div class="grade card" id="brown"  onClick="document.location.href = '/flashcard/?grade=brown'" style="color: brown;"><h3>BROWN</h3></div>
     <div class="grade card" id="black"  onClick="document.location.href = '/flashcard/?grade=dan'" style="color: black;"><h3>BLACK</h3></div>
 </body>
+<style>
+    .grade{
+        text-align: center;
+    }
+</style>
 
 </html>
